@@ -21,7 +21,6 @@ orgs.newOrg('eclipse-virgo') {
     orgs.newRepo('virgo-bundlor') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "master",
       delete_branch_on_merge: false,
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
@@ -30,7 +29,6 @@ orgs.newOrg('eclipse-virgo') {
     orgs.newRepo('virgo-ide') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "master",
       delete_branch_on_merge: false,
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
@@ -39,7 +37,6 @@ orgs.newOrg('eclipse-virgo') {
     orgs.newRepo('virgo-root') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "master",
       delete_branch_on_merge: false,
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
