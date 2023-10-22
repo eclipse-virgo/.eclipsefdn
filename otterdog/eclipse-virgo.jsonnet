@@ -18,6 +18,11 @@ orgs.newOrg('eclipse-virgo') {
     },
   },
   _repositories+:: [
+    orgs.newRepo('.github') {
+      allow_merge_commit: true,
+      delete_branch_on_merge: false,
+      description: "Global configurations for the eclipse-virgo GitHub organization",
+    },
     orgs.newRepo('virgo-bundlor') {
       allow_merge_commit: true,
       allow_update_branch: false,
