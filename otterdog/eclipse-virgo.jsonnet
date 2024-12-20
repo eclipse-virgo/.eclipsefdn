@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-virgo') {
+orgs.newOrg('rt.virgo', 'eclipse-virgo') {
   settings+: {
     description: "",
     name: "Eclipse Virgo",
